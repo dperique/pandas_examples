@@ -6,3 +6,4 @@ Some examples of using pandas.
   stock price.  It shows simple plotting with matplotlib and slicing of the data.
 * home_oil: We take home oil consumption from a csv and fixup the data so that we can graph it.
   We then graph it using separate and combined graphs.
+* plotting_examples: We use matplotlib and plot sin/cos/tan waves in a simple way.
