@@ -1,6 +1,8 @@
 # Python Pandas examples
 
-Some examples of using pandas.
+These are some examples of using pandas.
+
+They are in Jupyter Notebooks; see the next section for now I setup Jupyter Notebooks.
 
 * ibm_stock: Showing read of a csv file downloaded from yahoo.finance.com on IBM closing
   stock price.  It shows simple plotting with matplotlib and slicing of the data.
@@ -23,6 +25,7 @@ My recipe for setting up a Jupyter Notebook server involves doing these:
   such, I high recommend running only on a high secured and isolated local machine --
   whether that machine be your local laptop or machine residing locally on your well
   secured network.
+* Setup a virtualenv to avoid cluttering your machine.
 * Run Jupyter Notebook server on that machine; save the token presented to you.
 * Setup an ssh tunnel to the Jupyter Notebook server at 127.0.0.1:8888
 * Browse locally to https://127.0.0.1:8899
@@ -42,7 +45,6 @@ git clone https://github.com/dperique/pandas_examples.git
 cd pandas_examples
 python3 -m venv venv
 source venv/bin/activate
-pip3 install -r requirements.txt
 pip3 install --upgrade pip
 pip3 install jupyter
 jupyter notebook
