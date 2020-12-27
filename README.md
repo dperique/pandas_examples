@@ -17,10 +17,14 @@ These examples utilize Jupyter Notebooks.
 
 My recipe for setting up a Jupyter Notebook server involves doing these:
 
-* Set up a machine (it could be a VM in the cloud or a separate BM in
-  your basement); in my case it's a BM running Ubuntu 20.
+* Set up a machine (it could be a (very secure, protected, restricted, and monitored)
+  VM in the cloud or a separate BM in your basement); in my case it's a BM running Ubuntu 20.
+  NOTE: Jupyter Notebooks allow execution of arbitrary python code by design.  As
+  such, I high recommend running only on a high secured and isolated local machine --
+  whether that machine be your local laptop or machine residing locally on your well
+  secured network.
 * Run Jupyter Notebook server on that machine; save the token presented to you.
-* Setup an ssh tunnel to the Jupyter Notebook server at 127.0.0.1:8899
+* Setup an ssh tunnel to the Jupyter Notebook server at 127.0.0.1:8888
 * Browse locally to https://127.0.0.1:8899
 * Enter the token presented earlier
 * Run the Jupyter Notebooks.
