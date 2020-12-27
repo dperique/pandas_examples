@@ -58,3 +58,23 @@ The above sets up an ssh tunnel from your local machine's 127.0.0.1:8899 to the
 Jupyther Notebooks's 127.0.0.1:8888.
 
 On your local machine, browse to 127.0.0.1:8899, and enter the token you saved earlier.
+
+If you want to setup password access, do this (as described in the text presented to
+you when you first login):
+
+```
+See https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
+Do this if you don't already have a ~/.jupyter/jupyter_notebook_config.py file
+  jupyter notebook --generate-config
+Create a password like this:
+  python3
+  from notebook.auth import passwd
+  passwd()
+  <Enter a strong password>
+  <Enter a strong password>
+  exit()
+  Paste the output in ~/.jupyter/jupyter_notebook_config.py at:
+    c.NotebookApp.password = <outputFromAbove>
+
+When you login, you can enter your password instead of a token.
+```
