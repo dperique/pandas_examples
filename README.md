@@ -47,7 +47,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install --upgrade pip
 pip3 install jupyter
-jupyter notebook
+jupyter notebook --no-browser
 <capture the token which you will use later>
 control-z (to halt the jupyter process in the background)
 bg (to put the jupyter process in the background)
@@ -61,9 +61,17 @@ ssh -f -L 8899:127.0.0.1:8888 192.168.1.9 sleep 999999
 ```
 
 The above sets up an ssh tunnel from your local machine's 127.0.0.1:8899 to the
-Jupyther Notebooks's 127.0.0.1:8888.
+Jupyter Notebooks's 127.0.0.1:8888. I purposely used 8899 instead of 8888 in case you
+are also running a Jupyter Notebook locally.
 
-On your local machine, browse to 127.0.0.1:8899, and enter the token you saved earlier.
+NOTE: if you don't want to use an ssh tunnel, and you're Jupyter Notebook server is well
+secured, you can start it like this `jupyter notebook --no-browser --ip <ipAddress>` where
+`<ipAdress>` is an IP address reachable from your local machine.
+
+On your local machine:
+
+* If you used an ssh tunnel, browse to `127.0.0.1:8899`, and enter the token you saved earlier.
+* If you used an IP address, browse to `<ipAddress>:8888`
 
 If you want to setup password access, do this (as described in the text presented to
 you when you first login):
