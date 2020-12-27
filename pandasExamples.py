@@ -2,6 +2,10 @@
 
 """
 Watch https://youtu.be/e60ItwlZTKM (nice video with good examples).
+Some code from his video pasted here for my reference (since there were
+many good examples).
+Data taken from https://github.com/joeyajames/Python/blob/master/Pandas/Fremont_weather.txt
+@joeyajames thanks!
 """
 
 import numpy as np
