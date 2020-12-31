@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 
 """
-Watch https://youtu.be/e60ItwlZTKM (nice video with good examples).
+I wrote this for myself as a demo after being inspired by
+https://www.youtube.com/watch?v=e60ItwlZTKM&feature=youtu.be&ab_channel=JoeJames (nice video with good examples).
 Some code from his video pasted here for my reference (since there were
 many good examples).
 Data taken from https://github.com/joeyajames/Python/blob/master/Pandas/Fremont_weather.txt
 @joeyajames thanks!
+
+As I look back on this, I realize it's quite rudimentary but shows some simple
+examples for those new to pandas.
 """
 
 import numpy as np
