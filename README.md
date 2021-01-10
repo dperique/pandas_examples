@@ -20,6 +20,8 @@ They are in Jupyter Notebooks; see the next section for now I setup Jupyter Note
   csv files into a single frame.
 * chase_examples: pie charts for spending from sample csv files downloaded from chase.com
 * volvo_fuel: using the csv file downloaded from the Volvo "On Call" app.
+* pandasExamples.py: some examples I learned after watching the
+  [Joe James video](https://www.youtube.com/watch?v=e60ItwlZTKM&feature=youtu.be&ab_channel=JoeJames)
 
 
 ## Notes On Setting up Jupyter Notebooks
