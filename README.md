@@ -6,11 +6,20 @@ They are in Jupyter Notebooks; see the next section for now I setup Jupyter Note
 
 * ibm_stock: Showing read of a csv file downloaded from yahoo.finance.com on IBM closing
   stock price.  It shows simple plotting with matplotlib and slicing of the data.
+* ibm_mplfinance: more on IBM stock data after watching the
+  ["Python Programmer" video](https://www.youtube.com/watch?v=GcXgxfbcFrQ&ab_channel=PythonProgrammer)
 * home_oil: We take home oil consumption from a csv and fixup the data so that we can graph it.
   We then graph it using separate and combined graphs.
+* home_oil2: presentation improvements over the orginal home_oil and some correlation with
+  electricity bills.
 * us_property_and_income_tax: look at data from data.gov regarding US property and income
   taxes by state.
 * plotting_examples: We use matplotlib and plot sin/cos/tan waves in a simple way.
+* etrade_examples: extracting Dividend, Bought, Sold data from csv files from etrade.com
+  and showing examples of extracting data from certain date ranges and concatenate multiple
+  csv files into a single frame.
+* chase_examples: pie charts for spending from sample csv files downloaded from chase.com
+* volvo_fuel: using the csv file downloaded from the Volvo "On Call" app.
 
 
 ## Notes On Setting up Jupyter Notebooks
